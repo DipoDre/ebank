@@ -1,7 +1,8 @@
 # EBank
 
 ## Technical Design
-A short and brief technical design information can  be found in the **technicalDesign.md** file
+A short and brief technical design information can  be found in the [technicalDesign.md](/technicalDesign.md)
+ file
 
 ## Getting Started
   - First of all run **npm install**.
