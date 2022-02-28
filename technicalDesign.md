@@ -30,6 +30,10 @@ Enable secured access to an account management system through RESTful API to eas
 
 ## Design
 
+### FlowChart
+
+
+
 #### Structure
 The application employs the RESTful and MVC architectures.
 
