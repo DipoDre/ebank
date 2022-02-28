@@ -1,5 +1,5 @@
 # Technical Design
-Ideally, to be read with the **README.md** to give a better understanding.
+Ideally, to be read with the [README.md](/README.md) to give a better understanding.
 
 ## Overview
 #### Problem
