@@ -30,6 +30,10 @@ Enable secured access to an account management system through RESTful API to eas
 
 ## Design
 
+### FlowChart
+
+
+
 #### Structure
 The application employs the RESTful and MVC architectures.
 
@@ -46,10 +50,10 @@ The application employs the RESTful and MVC architectures.
 #### API Reference Specification
 
 | Method     | URI | Media type | Description | Protected | Status Code |
-| :--------- |:-----:| :-----:| -----:| :-----:| :-----:| :-----:|
+| --------- | -----:| -----:| -----:| -----:| -----:|
 | POST  | /accounts | application/json | Creates a new account | No | 201 Created, 400 Bad Request, 500 Internal Server Error |
 | PATCH    |   /accounts/:accountNumber/deposit |   application/json |  Deposits fund to an account  | Yes | 200 OK, 400 Bad Request, 500 Internal Server Error |
-| PATCH      |    /accounts/:accountNumber/transfer |    application/json |  Transfers fund to a receiver's account   | Yes |  200 OK, 400 Bad Request, 500 Internal Server Error |
+| PATCH      |    /accounts/:accountNumber/transfer |    application/json |  Transfers fund to a receiver's account   | Yes |  200 OK, 400 Bad Request, 500 Internal Server Error  |
 | PATCH  | /accounts/:accountNumber/withdraw | application/json | Withdraws fund from an account | Yes | 200 OK, 400 Bad Request, 500 Internal Server Error |
 
 #### Technology Stack
