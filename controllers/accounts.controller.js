@@ -191,7 +191,6 @@ exports.withdrawFund = async (req, res, next) => {
       withdrawAmount
     );
     res.status(200).json({
-      result,
       message: "Fund withdraw was successful",
     });
   } catch (error) {
